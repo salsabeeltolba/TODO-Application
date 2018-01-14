@@ -1,0 +1,114 @@
+/*==========================================================
+
+ Title:      ToDo Application Styling Sheet
+
+==========================================================*/ 
+
+
+body
+{
+  background-color:lightgray;
+}
+
+body,
+input
+{
+ font-family: 'Open Sans', sans-serif; 
+}
+
+.list
+{
+  background-color: white;
+  margin: 22px auto;
+  width:100%
+  max-width:500px;
+  font-size:12px;
+  padding: 18px;
+  box-shadow: 2px 2px 0 rgba(0, 0, 0, .1)
+}
+
+.list .header
+{
+ font-family: 'Pacifico', cursive; 
+ color:black;
+ text-align:center;
+}
+
+.items
+{
+	margin:0;
+	padding:0;
+	list-style-type: none;  	
+}
+
+.items li,
+.items-add .input
+{
+	border:0;
+	border-bottom:1px solid  gray;
+	padding: 14px 0;
+}
+
+.input: focus
+{
+	outline: none;
+}
+.items li:hover .pending-button
+{
+	background-color: #0080ff; 
+    color: white;
+	opacity:1;
+}
+.pending-button
+{
+	display:inline-block;
+	background-color: lightgray;
+	padding: 3px 6px;
+	border:0;
+	opacity:0.4;
+}
+
+.items li:hover .started-button
+{
+	background-color: #ffbf00; 
+    color: white;
+	opacity:1;
+}
+.started-button
+{
+	display:inline-block;
+	background-color: lightgray;
+	padding: 3px 6px;
+	border:0;
+	opacity:0.4;
+}
+.items li:hover .completed-button
+{
+	background-color: #4CAF50; 
+    color: white;
+	opacity:1;
+}
+.completed-button
+{
+	display:inline-block;
+	background-color: lightgray;
+	padding: 3px 6px;
+	border:0;
+	opacity:0.4;
+}
+
+.items li:hover .late-button
+{
+	background-color: #ff0000; 
+    color: white;
+	opacity:1;
+}
+.late-button
+{
+	display:inline-block;
+	background-color: lightgray;
+	padding: 3px 6px;
+	border:0;
+	opacity:0.4;
+}
+
